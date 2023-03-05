@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #131415;
+}
+.main{
+    position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+}
+h1{
+    color: #fff;
+}
+/* İTEM */
+.items{
+    margin-bottom: 30px;
+    display: flex;
+}
+.items i{
+    display: block;
+    margin: 0 -3rem;
+    font-size: 20px;
+    width: 20px;
+    
+}
+.items a{
+    color: #8a8f98;
+    font-size: 20px;
+    
+}
+.text{
+    text-decoration: none;
+
+}
+/* YEAR */
+.year{
+    position: relative;
+    bottom: 5px;
+    color: #fff;
+}
+/* SLASH */
+.slash{
+    position: relative;
+    top: -10px;
+    font-size: 40px;
+    cursor: pointer;
+    width: 35px;
+}
+.slash1{
+   padding-top: 36px;
+   cursor: pointer;
+   width: 35px;
+   position: relative;
+
+}
+
+/* HOVER */
+
+.items a:hover{
+    color: #fff;
+    transition: all 1s;
+}
+i:hover{
+    color:lightseagreen
+}
+.slash i:hover{
+    color:lightseagreen
+
+}
